@@ -90,14 +90,6 @@
 }
 .trapezoid {
 	border-right: 110px solid rgb(39, 38, 38);
-	border-bottom: 4px solid transparent;
-	border-top: 4px solid transparent;
-	height: 125px;
-	width: 0px;
-    border-radius: 400px 0px 0px 400px;
-}
-.trapezoid {
-	border-right: 110px solid rgb(39, 38, 38);
 	border-bottom: 25px solid transparent;
 	border-top: 25px solid transparent;
 	height: 125px;
@@ -149,6 +141,8 @@ display:flex;
     font-size: 15px;
 }
 .art{
+    display: flex;
+    gap: 10px;
     border: none;
     padding: 10px;
 }
@@ -314,7 +308,6 @@ ul.nobullets {
     display: flex;
     align-items: flex-end;
     padding-right: 110px;
-    padding-bottom: 5px;
     border-radius: 40px;
 }
 #decor{
@@ -344,4 +337,7 @@ footer{
     padding-left: 200px;
     padding-top: 50px;
 }
+.paras span {
+    border: 1px dashed black;
+    }
 
