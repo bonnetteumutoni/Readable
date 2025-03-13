@@ -157,6 +157,8 @@ display:flex;
 }
 #carra{
     padding-right: 34%;
+    font-family: cara;
+    font-size: 200%;
 }
 #new{
     color: red;
@@ -334,4 +336,7 @@ footer{
 .paras span {
     border: 1px dashed black;
     }
-
+@font-face {
+    font-family: cara;
+    src: url(MacondoSwashCaps-Regular.ttf);
+}
