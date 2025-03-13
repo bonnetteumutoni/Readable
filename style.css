@@ -398,8 +398,19 @@ footer{
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
-    .footer{
+    footer{
         display: flex;
         flex-wrap: wrap;
+    }
+    .combine{
+        display: flex;
+        column-count: 2;
+        flex-direction: row;
+    }
+    .fourcont{
+        font-size: 10px;
+    }
+    .onecont{
+        font-size: 10px;
     }
 }
