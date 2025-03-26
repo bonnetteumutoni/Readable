@@ -1,0 +1,405 @@
+#site-content * {
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    border: none;
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    padding-left: 50px;
+   
+}
+.innercontainer{
+    display: flex;
+    border: none;
+    width: 85%;
+    column-count: 2;
+    padding-left: 30px;
+}
+.innercontainer h1{
+    font-size: 250%;
+}
+#home{
+    border: none;
+    background-color: white;
+ }
+ #categories{
+    border:none;
+    background-color: white;
+ }
+ #shop{
+    border:none;
+    background-color: white;
+ }
+ #about{
+    border: none;
+    background-color: white;
+ }
+ #contact{
+    border:none;
+    background-color: white;
+ } 
+.secondcontainer{
+    display: flex;
+    border: none;
+    width: 40%;
+}
+.thirdcontainer{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80.8%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fourthcontainer{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+}
+.fifthcontainer{
+    border: none;
+    text-align: center;
+    width: 87%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sixthcontainer{
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 79.8%;
+    padding: 50px;
+}
+.seventhcontainer{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 79.8%;
+    padding: 30px;
+    gap: 30px;
+}
+.column{
+    width: 60%;
+    padding-left: 10px;
+}
+.trapezoid {
+	border-right: 110px solid rgb(39, 38, 38);
+	border-bottom: 25px solid transparent;
+	border-top: 25px solid transparent;
+	height: 125px;
+	width: 0px;
+    border-radius: 900px 0px 0px 900px;
+}
+.rectangle {
+  height: 174px;
+  width: 100px;
+  background-color: rgb(39, 38, 38);
+}
+.shapes{
+   display:flex;
+   justify-content:flex-end;
+  }
+.rectangleone {
+  height: 350px;
+  width: 100px;
+  background-color: rgb(39, 38, 38);
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 98px solid transparent;
+	border-top: 100px solid rgb(39, 38, 38);
+}
+.line{
+display:flex;
+}
+#image{
+    width: 17.5%;
+    height:auto;
+    position: absolute;
+    overflow: visible;
+}
+#start{
+    padding: 30px;
+    border-radius: 50px;
+    background: rgb(39, 38, 38);
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+}
+.video{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+.art{
+    display: flex;
+    gap: 10px;
+    border: none;
+    padding: 10px;
+}
+.numbers{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+.design{
+    display: flex;
+    align-content: center;
+}
+#carra{
+    padding-right: 34%;
+    font-family: cara;
+    font-size: 200%;
+}
+#new{
+    color: red;
+}
+.fifthcontainer h1{
+    font-size: 300%;
+}
+.fifthcontainer p{
+    font-size: 130%;
+}
+.sixthcontainer h1{
+    font-size:200%;
+}
+.sixthcontainer p{
+    font-size: 130%;
+}
+#now{
+    padding: 20px;
+    border-radius: 30px;
+    width: 40%;
+    font-size:medium;
+    border: 2px solid;
+}
+.minute{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 83.3%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.onecont{
+    border: none;
+    text-align: center;
+    width: 84%;
+    padding: 25px;
+}
+.twocont{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    padding: 25px;
+}
+.threecont{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.fourcont{
+    border: none;
+    text-align: center;
+    width: 84%;
+    padding: 25px;
+}
+.fivecont{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 79.8%;
+    padding: 60px;
+}
+.sixcont{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    padding: 25px;
+}
+.sevencont{
+    width: 82.1%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+}
+.seventhcontainer h1{
+    font-size:300%;
+}
+.seventhcontainer p{
+    font-size: 130%;
+}
+.onecont h1{
+    font-size: 300%;
+}
+.onecont p{
+    font-size: 130%;
+}
+.vase{
+    background: rgb(39, 38, 38);
+    width:7%;
+    border-radius: 15px;
+    padding: 30px;
+}
+.shield{
+    background: rgb(39, 38, 38);
+    width:7%;
+    border-radius: 15px;
+    padding: 30px;
+}
+.gift{
+    background: rgb(39, 38, 38);
+    width:7%;
+    border-radius: 15px;
+    padding: 30px;
+}
+.route{
+    background: rgb(39, 38, 38);
+    width:7%;
+    border-radius: 15px;
+    padding: 30px;
+}
+.fourcont h1{
+    font-size: 300%;
+}
+.fourcont p{
+    font-size: 130%;
+}
+#right{
+    width: 10%;
+}
+.fivecont h2{
+    font-size:150%;
+}
+.fivecont p{
+    font-size: 130%;
+}
+.parker{
+    display: flex;
+    gap: 30px;
+}
+.sides{
+    display: flex;
+    justify-content: space-between;
+}
+#decor{
+    width: 20%;
+}
+.flower{
+    display: flex;
+    align-items: flex-end;
+    padding-right: 110px;
+    border-radius: 40px;
+}
+#decor{
+    width: 70%;
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
+.homedecor{
+    display: flex;
+    justify-content: flex-end;
+}
+#homedeco{
+    width: 65%;
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
+#wall{
+    width: 65%;
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    position: absolute;
+    overflow: visible;
+    color:white;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.paras span {
+    border: 1px dashed black;
+    }
+@font-face {
+    font-family: cara;
+    src: url(MacondoSwashCaps-Regular.ttf);
+}
+@media screen and (min-width: 324px) and (max-width: 768px) {
+    .container{
+        display: flex;
+    }
+    .fivecont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .seventhcontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fourthcontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sixcont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .onecont{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .firstcontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fourcont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .threecont{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .twocont{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .sixthcontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .innercontainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
